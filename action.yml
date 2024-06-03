@@ -1,4 +1,4 @@
-name: Sync GitHub issues to a sheet
+name: issues to a google sheet with descriptions
 description: Syncs GitHub issues to a given sheet.
 author: serban-petrescu
 branding:

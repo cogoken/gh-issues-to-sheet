@@ -52,7 +52,7 @@ export class GitHubReader extends BaseLoggedComponent implements IssueReader {
                     id: String(issue.number),
                     type: (issue.pull_request ? 'pr' : 'issue') as IssueType,
                     title: issue.title,
-                    description: issue.body,
+                    body: issue.body,
                     state: issue.state,
                     assignee: issue.assignee?.login ?? null,
                     milestone: issue.milestone?.title ?? null,

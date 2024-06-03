@@ -66,6 +66,7 @@ export class GSheetWriter extends BaseLoggedComponent implements IssueWriter {
         const updates = [
             this.updateField(row, issue, 'type'),
             this.updateField(row, issue, 'title'),
+            this.updateField(row, issue, 'description'),
             this.updateField(row, issue, 'state'),
             this.updateField(row, issue, 'url'),
             this.updateField(row, issue, 'assignee'),

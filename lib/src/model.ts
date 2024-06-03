@@ -14,7 +14,7 @@ export type Issue = {
     id: string;
     type: IssueType;
     title: string;
-    body: string;
+    body: string | null;
     assignee: string | null;
     state: string;
     milestone: string | null;

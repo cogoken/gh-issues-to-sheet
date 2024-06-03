@@ -32,6 +32,7 @@ describe('GSheetWriter', () => {
             createdBy: null,
             type: 'issue',
             title: `Issue ${id}`,
+            body: null,
             state: 'closed',
             milestone: null,
             closedAt: null,
